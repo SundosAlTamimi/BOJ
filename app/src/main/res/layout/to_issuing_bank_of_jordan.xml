@@ -7,19 +7,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2.5"
-        android:background="@drawable/jor_"
+        android:layout_weight="2"
         android:gravity="start|center_vertical"
         android:orientation="vertical"
         android:padding="5dp">
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Application For Opening A Documentary Credits"
-            android:textColor="@color/white"
-            android:textSize="15sp" />
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,7 +57,8 @@
             android:id="@+id/lin1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:visibility="gone">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -78,7 +79,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Branch : "
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -87,7 +88,8 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:singleLine="true"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -100,7 +102,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="from (Applicant) : "
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -109,7 +111,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -122,7 +124,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="In the name of"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -131,7 +133,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -141,19 +143,20 @@
 
                         <TextView
                             android:id="@+id/textView12"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Amount: Not exceeding/About"
-                            android:textColor="@color/black"
-                            android:textSize="15sp" />
+                            android:layout_weight="1"
+                            android:text="@string/amount_not_exceeding_about"
+                            android:textColor="@color/blue"
+                            android:textSize="13sp" />
 
                         <EditText
                             android:id="@+id/editText6"
-                            android:layout_width="match_parent"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -166,7 +169,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="In words"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -175,7 +178,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -188,7 +191,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Customer Account No. :"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -197,7 +200,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -210,7 +213,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="L/C NO : "
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -219,7 +222,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -232,7 +235,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Date :"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -241,7 +244,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -254,7 +257,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Beneficiary :"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -263,7 +266,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -276,7 +279,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Expiry date :"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -285,7 +288,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -298,7 +301,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Place for presentation:"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -307,7 +310,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -320,7 +323,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Advise through"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -329,7 +332,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -342,7 +345,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Transferable in:"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
 
                         <EditText
@@ -351,7 +354,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:inputType="textPersonName"
-                            android:textColor="@color/black"
+                            android:textColor="@color/blue"
                             android:textSize="16sp" />
                     </TableRow>
 
@@ -385,7 +388,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btn_background"
-                        android:padding="10dp"
+                        android:padding="5dp"
                         android:text="Issued by Teletransmission, adding confirmation to the credit"
                         android:textColor="@color/white" />
 
@@ -400,7 +403,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Requested"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
 
                         <CheckBox
                             android:id="@+id/checkBox"
@@ -408,7 +411,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Not requested"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
                     </TableRow>
                 </LinearLayout>
 
@@ -419,14 +422,40 @@
                     android:background="@drawable/btn_background_frame"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView24"
+                    <TableRow
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btn_background_blue"
-                        android:padding="10dp"
-                        android:text="Credit available: ) by payment by negotiation at sight"
-                        android:textColor="@color/white" />
+                        android:gravity="center"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:padding="10dp"
+                            android:text="Credit available:"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:text="by payment "
+                            android:textColor="@color/white" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox31"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="by negotiation at sight"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+                    </TableRow>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -442,7 +471,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="By Acceptance due for payment after"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue" />
 
                             <EditText
                                 android:id="@+id/editText14"
@@ -461,20 +490,22 @@
                                 android:id="@+id/textView22"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text=" days from" />
+                                android:text=" days from"
+                                android:textColor="@color/blue" />
 
                             <EditText
                                 android:id="@+id/editText15"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:ems="10"
+                                android:ems="8"
                                 android:inputType="textPersonName" />
 
                             <TextView
                                 android:id="@+id/textView23"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="date." />
+                                android:text="date."
+                                android:textColor="@color/blue" />
                         </TableRow>
 
                     </LinearLayout>
@@ -493,7 +524,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="By deferred payment due for payment after"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue" />
 
                             <EditText
                                 android:id="@+id/editText149"
@@ -513,21 +544,22 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text=" days from"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue" />
 
                             <EditText
                                 android:id="@+id/editText915"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:ems="10"
-                                android:inputType="textPersonName" />
+                                android:inputType="textPersonName"
+                                android:textSize="12sp" />
 
                             <TextView
                                 android:id="@+id/textVie9w23"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="date."
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue" />
                         </TableRow>
 
                     </LinearLayout>
@@ -546,7 +578,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="By mixed payment (details to follow)."
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue" />
 
                         </TableRow>
 
@@ -588,21 +620,21 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Permitted"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
 
                         <CheckBox
                             android:id="@+id/checkBox6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="In ... consignment only"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
 
                         <CheckBox
                             android:id="@+id/checkBox4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Prohibited"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -627,14 +659,211 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Permitted"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
 
                         <CheckBox
                             android:id="@+id/checkBox8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Prohibited"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_frame"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1261"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_background_blue"
+                        android:padding="5dp"
+                        android:text="Revolving : "
+                        android:textColor="@color/white" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cumulative"
+                        android:textColor="@color/blue" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox148"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Non-Cumulative"
+                        android:textColor="@color/blue" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_frame"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_background"
+                        android:padding="5dp"
+                        android:text="Shipment by : "
+                        android:textColor="@color/white" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vessel"
+                        android:textColor="@color/blue" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox1_48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Air transport"
+                        android:textColor="@color/blue" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox1_58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Truck"
+                        android:textColor="@color/blue" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView_161"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="From : "
+                            android:textColor="@color/blue" />
+
+
+                        <EditText
+                            android:id="@+id/editText_150"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView_1611"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="For transportation : "
+                            android:textColor="@color/blue" />
+
+
+                        <EditText
+                            android:id="@+id/editText_1501"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/textView_161_"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Not Later than : "
+                            android:textColor="@color/blue" />
+
+
+                        <EditText
+                            android:id="@+id/editText_150_"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+                    </TableRow>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_background_frame"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textVi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Transport document to evidence : "
+                            android:textColor="@color/orange_"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/checkBo5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Shipment by member vessel"
+                            android:textColor="@color/blue" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox1__8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Conference"
+                            android:textColor="@color/blue" />
+
+
+                        <CheckBox
+                            android:id="@+id/checkB_o5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="P and l club"
+                            android:textColor="@color/blue" />
+
+                        <CheckBox
+                            android:id="@+id/checkBox10_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Regular Line"
+                            android:textColor="@color/blue" />
+
+
+                        <CheckBox
+                            android:id="@+id/checkBo_hh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Shipment in container(s)"
+                            android:textColor="@color/blue" />
+
 
                     </LinearLayout>
 
@@ -676,7 +905,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="EXW"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText16"
@@ -695,7 +924,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="FOB"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText17"
@@ -714,7 +943,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="FCA"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText18"
@@ -733,7 +962,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="CFR"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText19"
@@ -759,7 +988,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="CPT"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText20"
@@ -778,7 +1007,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="CIF"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText21"
@@ -797,7 +1026,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="CIP"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText22"
@@ -815,7 +1044,7 @@
                                     android:id="@+id/checkBox17"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText23"
@@ -838,7 +1067,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Other Conditions"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/blue" />
 
                     <EditText
                         android:id="@+id/editText24"
@@ -846,7 +1075,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/blue" />
                 </TableRow>
 
                 <TableRow
@@ -859,7 +1088,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Signature(s):"
-                        android:textColor="@color/black"
+                        android:textColor="@color/blue"
                         android:textStyle="bold" />
 
                     <EditText
@@ -868,7 +1097,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:textColor="@color/black" />
+                        android:textColor="@color/blue" />
                 </TableRow>
 
             </LinearLayout>
@@ -884,519 +1113,624 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/btn_background_frame"
                 android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/btn_background"
-                    android:padding="5dp"
-                    android:text="- L/C available against presentation of documents detailed as follows:- L/C available against presentation of documents detailed as follows:"
-                    android:textColor="@color/white" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/btn_background_frame"
+                    android:orientation="vertical">
 
-                    <CheckBox
-                        android:id="@+id/checkBox7"
+                    <TextView
+                        android:id="@+id/textView21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Beneficiary's draft(s) drawn on Bank of Jordan Plc / " />
+                        android:background="@drawable/btn_background"
+                        android:padding="10dp"
+                        android:text="- L/C available against presentation of documents detailed as follows:"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
-                        <TextView
-                            android:id="@+id/textView49"
+                        <CheckBox
+                            android:id="@+id/checkBox7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="confirming bank at"
-                            android:textColor="@color/black" />
+                            android:layout_marginTop="10dp"
+                            android:text="Beneficiary's draft(s) drawn on Bank of Jordan Plc / "
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
 
-                        <EditText
-                            android:id="@+id/editText30"
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:ems="5"
-                            android:inputType="textPersonName"
-                            android:textColor="@color/black" />
+                            android:orientation="horizontal">
 
-                        <TextView
-                            android:id="@+id/textView50"
-                            android:layout_width="wrap_content"
+                            <TextView
+                                android:id="@+id/textView49"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="confirming bank at"
+                                android:textColor="@color/blue" />
+
+                            <EditText
+                                android:id="@+id/editText30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="3"
+                                android:inputType="textPersonName"
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/textView50"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="days from "
+                                android:textColor="@color/blue" />
+
+                            <EditText
+                                android:id="@+id/editText31"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:inputType="textPersonName"
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="days from "
-                            android:textColor="@color/black" />
+                            android:orientation="horizontal">
+
+
+                        </LinearLayout>
                     </LinearLayout>
 
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/blue"
+                        android:text="TextView" />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Beneficiary's signed commercial invoice, plus"
+                                android:textColor="@color/blue" />
+
+                            <EditText
+                                android:id="@+id/editText35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="3"
+                                android:inputType="textPersonName"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="copies, original certified by the Chamber of Commerce/CCPIT and legalized by Jordan Consulate"
+                            android:textColor="@color/blue" />
 
                         <EditText
-                            android:id="@+id/editText31"
+                            android:id="@+id/editText36"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
+
+
+                        <!--//... -->
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/checkBox118"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Certificate of origin, plus"
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editText135"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="4"
+                                android:inputType="textPersonName"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/textView30"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="copies,"
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView511"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" stating that goods are of... origin, issued or certified by the Chamber of Commerce/CCPIT, original must be legalized by Jordan Consulate"
+                            android:textColor="@color/blue" />
+
+                        <EditText
+                            android:id="@+id/editText361"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
+
+
+                        <!--//... -->
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <CheckBox
+                            android:id="@+id/checkBox20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Shipping company's full set, of 373 original  "
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ocean/ marine bill(s) of lading, issued to the order of Bank of Jordan Plc. Showing freight pre-paid /payable at destination and shipping Co.'s Agent name and address, at destination port, and showing beneficiary's name as consignor, marked notify applicant/ .."
+                            android:textColor="@color/blue" />
+
+                        <EditText
+                            android:id="@+id/editText311"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
 
                             android:inputType="textPersonName"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
                     </LinearLayout>
-                </LinearLayout>
 
-                <TextView
+                    <TextView
 
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <CheckBox
-                            android:id="@+id/checkBox18"
+                            android:id="@+id/checkBox22"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Beneficiary's signed commercial invoice, plus" />
+                            android:text="Original air waybill, evidencing goods "
+                            android:textColor="@color/blue" />
+
+                        <TextView
+                            android:id="@+id/textVie7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" accepted for shipment, dispatch or carriage, consigned to Bank of Jordan Plc. Showing freight pre-paid /payable at destination and actual date of dispatch, marked notify applicant/"
+                            android:textColor="@color/blue" />
 
                         <EditText
-                            android:id="@+id/editText35"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/editText3111"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:ems="3"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView51"
+
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="copies, original certified by the Chamber of Commerce/CCPIT and legalized by Jordan Consulate"
-                        android:textColor="@color/black" />
-
-                    <EditText
-                        android:id="@+id/editText36"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
-
-
-                    <!--//... -->
-                </LinearLayout>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <CheckBox
-                            android:id="@+id/checkBox118"
+                            android:id="@+id/checkBox21"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Certificate of origin, plus" />
+                            android:text="Original truck waybill, evidencing goods  "
+                            android:textColor="@color/blue" />
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="received for shipment, dispatch or carriage, consigned to Bank of Jordan Plc freight pre-paid /payable at destination and plate number(s) or carrying trucks, marked notify applicant/"
+                            android:textColor="@color/blue" />
 
                         <EditText
-                            android:id="@+id/editText135"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/editText3411"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:ems="3"
-                            android:inputType="textPersonName" />
+                            android:inputType="textPersonName"
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView511"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="copies, stating that goods are of... origin, issued or certified by the Chamber of Commerce/CCPIT, original must be legalized by Jordan Consulate"
-                        android:textColor="@color/black" />
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
-                    <EditText
-                        android:id="@+id/editText361"
+                        <CheckBox
+                            android:id="@+id/checkBox23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text='Original insurance policy issued in negotiable '
+                            android:textColor="@color/blue" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="form , for the full invoice amount plus ten percent, evidencing premium paid, showing
+                         claims payable in Jordan to the order of Bank of Jordan Plc, irrespective of percentage, and showing Agent name and address at destination, covering the following risks from warehouse to"
+                            android:textColor="@color/blue" />
+                        <!-- ""-->
+                        <!--/institute air clauses/land transit clauses -->
+                        <!--"-->
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="warehouse in "
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editText34111"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPersonName"
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TextView
+                            android:id="@+id/textView151"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="- Institute cargo clauses \'A'\ /institute air clauses/land transit clauses "
+                            android:textColor="@color/blue" />
+
+                        <TextView
+                            android:id="@+id/textView551"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="- War, strikes, riots and civil commotion clauses"
+                            android:textColor="@color/blue" />
+
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <CheckBox
+                            android:id="@+id/checkBox24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Original packing list issued and signed by "
+                            android:textColor="@color/blue" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="beneficiary plus "
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editText345"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="5"
+                                android:inputType="textPersonName"
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/textView554"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="copies."
+                                android:textColor="@color/blue" />
+                        </LinearLayout>
 
 
-                    <!--//... -->
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <CheckBox
+                            android:id="@+id/checkBox29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Original certificate of weight issued and "
+                            android:textColor="@color/blue" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView1_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="signed by beneficiary plus "
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/editText3_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="5"
+                                android:inputType="textPersonName"
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/textView55_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="copies."
+                                android:textColor="@color/blue" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <CheckBox
+                            android:id="@+id/checkBox28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Heallh certificate issued by "
+                            android:textColor="@color/blue" />
+
+                        <EditText
+                            android:id="@+id/editText34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp">
+
+                        <CheckBox
+                            android:id="@+id/checkBox27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/editText33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/gray"
+                        android:text="TextView" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp">
+
+                        <CheckBox
+                            android:id="@+id/checkBox26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/editText32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textSize="14sp" />
+                    </TableRow>
+
+
                 </LinearLayout>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox20"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Shipping company's full set, of 373 original ocean/ marine bill(s) of lading, issued to the order of Bank of Jordan Plc. Showing freight pre-paid /payable at destination and shipping Co.'s Agent name and address, at destination port, and showing beneficiary's name as consignor, marked notify applicant/ .. " />
-
-
-                    <EditText
-                        android:id="@+id/editText311"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
-                </LinearLayout>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox22"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Original air waybill, evidencing goods accepted for shipment, dispatch or carriage, consigned to Bank of Jordan Plc. Showing freight pre-paid /payable at destination and actual date of dispatch, marked notify applicant/ " />
-
-                    <EditText
-                        android:id="@+id/editText3111"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
-                </LinearLayout>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox21"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Original truck waybill, evidencing goods received for shipment, dispatch or carriage, consigned to Bank of Jordan Plc freight pre-paid /payable at destination and plate number(s) or carrying trucks, marked notify applicant/ " />
-
-                    <EditText
-                        android:id="@+id/editText3411"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
-                </LinearLayout>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox23"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text='Original insurance policy issued in negotiable form' />
+                    android:background="@drawable/btn_background_frame"
+                    android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text=", for the full invoice amount plus ten percent, evidencing premium paid, showing
-                         claims payable in Jordan to the order of Bank of Jordan Plc, irrespective of percentage, and showing Agent name and address at destination, covering the following risks from warehouse to warehouse in ... "
-                        android:textColor="@color/black" />
-                    <!-- ""-->
-                    <!--/institute air clauses/land transit clauses -->
-                    <!--"-->
-                    <EditText
-                        android:id="@+id/editText34111"
+                        android:id="@+id/textView52"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:id="@+id/textView151"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="- Institute cargo clauses \'A'\ /institute air clauses/land transit clauses "
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:id="@+id/textView551"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="- War, strikes, riots and civil commotion clauses"
-                        android:textColor="@color/black" />
-
-                </LinearLayout>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox24"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Original packing list issued and signed by beneficiary plus" />
+                        android:background="@drawable/btn_background"
+                        android:padding="10dp"
+                        android:text="evidencing shipment of the following goods"
+                        android:textColor="@color/white" />
 
                     <EditText
-                        android:id="@+id/editText345"
+                        android:id="@+id/editText37"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="5"
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:id="@+id/textView554"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="copies."
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox29"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Original certificate of weight issued and signed by beneficiary plus" />
-
-                    <EditText
-                        android:id="@+id/editText346"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ems="5"
-                        android:inputType="textPersonName"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:id="@+id/textView558"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="copies."
-                        android:textColor="@color/black" />
-                </TableRow>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox28"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Heallh certificate issued by ------" />
-
-                    <EditText
-                        android:id="@+id/editText34"
-                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="textPersonName"
-                        android:text="Name" />
-
-                </TableRow>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox27"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <EditText
-                        android:id="@+id/editText33"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="textPersonName"
-                        android:text="Name" />
-
-                </TableRow>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_margin="5dp"
-                    android:background="@color/gray"
-                    android:text="TextView" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:layout_weight="1"
-                    android:padding="10dp">
-
-                    <CheckBox
-                        android:id="@+id/checkBox26"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <EditText
-                        android:id="@+id/editText32"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:ems="10"
-                        android:inputType="textPersonName"
-                        android:text="Name" />
-                </TableRow>
-
-
-            </LinearLayout>
-        </ScrollView>
-
-        <ScrollView
-            android:id="@+id/lin4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:visibility="gone">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/btn_background_frame"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView52"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/btn_background"
-                    android:padding="10dp"
-                    android:text="evidencing shipment of the following goods"
-                    android:textColor="@color/white" />
-
-                <EditText
-                    android:id="@+id/editText37"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textMultiLine"
-                    android:padding="5dp"
-                    android:textColor="@color/black" />
+                        android:inputType="textMultiLine"
+                        android:padding="5dp"
+                        android:textColor="@color/blue"
+                        android:textSize="14sp" />
+                </LinearLayout>
             </LinearLayout>
         </ScrollView>
 
@@ -1441,7 +1775,8 @@
                             android:padding="5dp"
 
                             android:text="1 - All your correspondent bank charges are for beneficiary's account / applicant's account, including/excluding "
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
 
                         <EditText
                             android:id="@+id/editText27"
@@ -1449,7 +1784,9 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -1467,14 +1804,16 @@
 
                                     android:padding="5dp"
                                     android:text="2- Documents to be presented within"
-                                    android:textColor="@color/black" />
+                                    android:textColor="@color/blue" />
 
                                 <EditText
                                     android:id="@+id/editText38"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:ems="5"
-                                    android:inputType="textPersonName" />
+                                    android:inputType="textPersonName"
+                                    android:textColor="@color/blue"
+                                    android:textSize="14sp" />
 
                             </TableRow>
 
@@ -1484,7 +1823,7 @@
                                 android:layout_height="wrap_content"
                                 android:padding="5dp"
                                 android:text="days after the date of shipment, but within the validity of this L/C. "
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue" />
 
                         </LinearLayout>
 
@@ -1495,7 +1834,7 @@
                             android:padding="5dp"
 
                             android:text="3- 1/we authorize you to insure the goods locally with"
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
 
                         <EditText
                             android:id="@+id/editText28"
@@ -1503,7 +1842,9 @@
                             android:layout_height="wrap_content"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:padding="5dp" />
+                            android:padding="5dp"
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
 
                         <TextView
                             android:id="@+id/textView35"
@@ -1512,7 +1853,7 @@
                             android:padding="5dp"
 
                             android:text="If not called for above, and to debit our account with you for any expenses incurred. "
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1529,7 +1870,7 @@
                             android:background="@drawable/btn_background_blue"
                             android:padding="10dp"
                             android:text="I/we request that you issue on our behalf and for our account your irrevocable Documentary Credit in accordance with the instructions stated and marked herein, a long with the additional conditions, if required, stated overleaf. This credit will be subject to Uniform Customs and Practice for Documentary Credits (2007 Revision, Publication no. 600 of the International Chamber of Commerce, Paris, France), and to INCOTERMS 2010, insofar as they are applicable. "
-                            android:textColor="@color/black" />
+                            android:textColor="@color/white" />
 
                         <TableRow
                             android:layout_width="match_parent"
@@ -1541,7 +1882,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="(Name and signature) "
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue" />
 
                             <EditText
                                 android:id="@+id/editText29"
@@ -1549,7 +1890,8 @@
                                 android:layout_height="wrap_content"
                                 android:ems="10"
                                 android:inputType="textPersonName"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/blue"
+                                android:textSize="14sp" />
                         </TableRow>
                     </LinearLayout>
 
@@ -1564,16 +1906,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="signature(s) : "
-                            android:textColor="@color/black" />
+                            android:textColor="@color/blue" />
 
                         <EditText
                             android:id="@+id/editTet29"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:ems="10"
-
                             android:inputType="textPersonName"
-                            android:textColor="@color/black" />
+
+                            android:textColor="@color/blue"
+                            android:textSize="14sp" />
                     </TableRow>
 
                 </LinearLayout>
@@ -1585,6 +1928,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_background_frame"
             android:visibility="gone">
 
             <LinearLayout
@@ -1592,27 +1936,28 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/orange_shape"
+                    android:padding="10dp"
+                    android:text="General Terms and Conditions"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="5dp">
-
-                    <TextView
-                        android:id="@+id/textView45"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:background="@drawable/btn_background"
-                        android:padding="10dp"
-                        android:text="General Terms and Conditions"
-                        android:textColor="@color/white" />
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/textView38"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:padding="5dp"
                         android:text="1- In case any/all of the following clauses is/are required by us, we the undersigned under our sole and full responsibility undertake to accept documents as presented and despite any discrepancy, and authorize you to debit any of our accounts with you for documents value plus all charges and commissions incurred thereof and hereby release Bank of Jordan PLC from any responsibility and/or obligation concerning the following: "
                         android:textColor="@color/gray" />
 
@@ -1620,19 +1965,24 @@
                         android:id="@+id/checkBox25"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Shipment on deck permitted." />
+                        android:padding="5dp"
+                        android:text="Shipment on deck permitted."
+                        android:textColor="@color/blue" />
 
                     <CheckBox
                         android:id="@+id/checkBox30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Third party transport documents acceptable." />
+                        android:padding="5dp"
+                        android:text="Third party transport documents acceptable."
+                        android:textColor="@color/blue" />
 
                     <TextView
                         android:id="@+id/textView39"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:padding="5dp"
                         android:text="2- We undertake to insure the goods against theft and fire from the expiry date of the relative marine/land/air insurance until the goods are finally cleared. If we fail to ensure the goods as above, you are authorized, without referring to us, and without any obligation or responsibility on your part, to effect the necessary insurance and debit our account with all the expenses incurred. "
                         android:textColor="@color/gray" />
 
@@ -1641,6 +1991,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:padding="5dp"
                         android:text="3- We authorize you to obtain the foreign exchange permit, if necessary, and we shall pay the value of any losses incurred by you because of the failure of the foreign exchange authorities to provide you with the necessary cover in foreign currency. Since we are fully aware that the bank is obliged to keep funds in foreign currencies abroad for the settlement of documentary letters of credit opened in these currencies, we hereby declare to you that we shall bear the consequences that may arise from fluctuation in the rate of the foreign currency in which this credit is opened, up to the amount of this credit. " />
 
                     <TextView
@@ -1648,6 +1999,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:padding="5dp"
                         android:text="4- We authorize you to debit our account(s) with you for any charges and/or commissions and/or interests resulting from any transaction under this credit, in accordance with article no. 35 of the UCP 600. "
                         android:textColor="@color/gray" />
 
@@ -1656,6 +2008,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:padding="5dp"
                         android:text="5- The terms and conditions mentioned in this application are in addition to, and not in substitution of the terms, conditions and articles of: -The agreement with Bank of Jordan Plc signed by us embodying the General Conditions for Documentary Credits and/or the General Conditions for the Accepted Guaranteed Drafts/ Guaranteed Bills of Exchange. - The Uniform Customs and Practice for Documentary Credits (2007 Revision Publication No. 600) and/or any revisions thereof. All terms, conditions and articles of which are completely understood by us, we also, confirm that we shall not relieved from any of our obligations under any provision or article. "
                         android:textColor="@color/gray" />
 
@@ -1664,6 +2017,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:padding="5dp"
                         android:text="6- Documents issued either in the currency of the credit or in the official EURO counter value, are acceptable. Payment effected in EURO for the equivalent of the currency of the credit at the conversion rate fixed by the European Union are also acceptable. "
                         android:textColor="@color/gray" />
 
@@ -1672,9 +2026,39 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
+                        android:padding="5dp"
                         android:text="7- We have duly noted, understood, and approved contents, terms and conditions, by putting freely our signatures on this application thereunder. "
                         android:textColor="@color/gray" />
                 </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/lin7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background_frame"
+            android:padding="20dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4_"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/btn_background"
+                    android:gravity="center"
+                    android:text="Done"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
 
             </LinearLayout>
         </ScrollView>
@@ -1694,10 +2078,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/btn_background_blue"
+            android:background="@drawable/btn_background_frame"
             android:text="Previously"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/blue"
             android:textSize="16sp" />
 
         <TextView
@@ -1711,10 +2095,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/btn_background_frame"
             android:text="Next"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/orange_"
             android:textSize="16sp" />
     </LinearLayout>
 

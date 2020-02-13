@@ -123,8 +123,7 @@
     <string name="address_">العنوان</string>
     <string name="guarantor_sign2">توقيع طالب إصدار الكفالة</string>
     <string name="guarantor_sign3">توقيع المكفول</string>
-
-
+    <string name="amount_not_exceeding_about">Amount: Not exceeding/About</string>
 
 
 </resources>

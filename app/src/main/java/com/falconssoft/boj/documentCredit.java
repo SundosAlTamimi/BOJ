@@ -12,7 +12,7 @@ import java.util.List;
 
 public class documentCredit extends AppCompatActivity {
 
-    ScrollView lin1,lin2,lin3,lin4,lin5,lin6;
+    ScrollView lin1,lin2,lin3,lin5,lin6,lin7;
     List<Integer> ListOfLinerShow;
     Button Previously,next;
     int index=0;
@@ -24,9 +24,9 @@ public class documentCredit extends AppCompatActivity {
         ListOfLinerShow.add(R.id.lin1);
         ListOfLinerShow.add(R.id.lin2);
         ListOfLinerShow.add(R.id.lin3);
-        ListOfLinerShow.add(R.id.lin4);
         ListOfLinerShow.add(R.id.lin5);
         ListOfLinerShow.add(R.id.lin6);
+        ListOfLinerShow.add(R.id.lin7);
 
         Previously=findViewById(R.id.Previously);
         next=findViewById(R.id.next);
@@ -34,10 +34,9 @@ public class documentCredit extends AppCompatActivity {
         lin1=(ScrollView)findViewById(R.id.lin1);
         lin2=(ScrollView)findViewById(R.id.lin2);
         lin3=(ScrollView)findViewById(R.id.lin3);
-        lin4=(ScrollView)findViewById(R.id.lin4);
         lin5=(ScrollView)findViewById(R.id.lin5);
         lin6=(ScrollView)findViewById(R.id.lin6);
-
+        lin7=(ScrollView)findViewById(R.id.lin7);
         GoneAllLin();
         ViewLin(0);
 

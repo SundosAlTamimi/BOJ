@@ -120,6 +120,35 @@
                 android:text="Draft Transfer"
                 android:textColor="@color/orange_"
                 android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Warranty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_mode_edit_black_24dp"
+                app:civ_border_color="@color/orange_"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="Warranty"
+                android:textColor="@color/orange_"
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -136,8 +165,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
 
-                android:cropToPadding="false"
-                android:src="@drawable/ic_developers_white_24dp"
+                android:cropToPadding="true"
+                android:src="@drawable/ic_mode_edit_black_24dp"
                 app:civ_border_color="@color/orange_"
                 app:civ_border_width="1dp" />
 
@@ -149,36 +178,9 @@
                 android:gravity="center"
                 android:text="Documentary Credits"
                 android:textColor="@color/orange_"
-                android:textSize="15sp" />
+                android:textSize="14sp" />
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/Warranty"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/circleImageView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/ic_transfer_white_24dp"
-                app:civ_border_color="@color/orange_"
-                app:civ_border_width="1dp" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="3"
-                android:gravity="center"
-                android:text="Warranty"
-                android:textColor="@color/orange_"
-                android:textSize="15sp" />
-        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
