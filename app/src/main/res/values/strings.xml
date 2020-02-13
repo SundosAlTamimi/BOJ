@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">BOJ</string>
+
+    <string name="app_to_issue">Application To Issue Demand Draft/Transfer</string>
+    <string name="branch">Branch</string>
+    <string name="date_">Date</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+
+    <string name="transfer_info">Transfer Information</string>
+    <string name="transfer_curr">Transfer Curr</string>
+    <string name="transfer_amount">Transfer Amount</string>
+    <string name="only">Only</string>
+    <string name="purpose_of_payment">Purpose Of Payment</string>
+    <string name="relationsip">Relationship Between Parties</string>
+    <string name="special_instructions">Special Instructions</string>
+    <string name="comm_issue_bank">Comm. And Charge Issue Bank</string>
+    <string name="comm_beneficiary">Comm. And Charge Beneficiary</string>
+    <string name="beneficiary">Beneficiary</string>
+    <string name="ordering">Ordering</string>
+    <string name="payment_cure">Payment Curr</string>
+    <string name="issue_of_the_transfer">* Issue of the Transfer/Draft is subject to the conditions stated overleaf.</string>
+
+    <string name="applicants_info">Applicant\'s Information</string>
+    <string name="applicants_name">Applicant\'s Name</string>
+    <string name="address">Address</string>
+    <string name="debit_our_ac_no">Debit Our A/C No.</string>
+    <string name="branch_no">Branch No</string>
+    <string name="currency">Currency</string>
+    <string name="account_type">Account Type</string>
+    <string name="customer_no">Customer No.</string>
+    <string name="serial_no">Serial No.</string>
+    <string name="check_digit">Check Digit</string>
+
+    <string name="beneficiary_info">Beneficiary\'s Information</string>
+    <string name="beneficiary_name">Beneficiary\'s Name</string>
+    <string name="beneficiary_address">Beneficiary\'s Address</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="country_name">Country Name</string>
+    <string name="beneficiary_ac_no">Beneficiary AC No.</string>
+    <string name="beneficiary_bank">Beneficiary Bank</string>
+    <string name="swift_code">Swift Code</string>
+    <string name="routing_no">Routing No.</string>
+    <string name="beneficiary_bank_address">Beneficiary Bank Address</string>
+    <string name="beneficiary_bank_national_no">Beneficiary Bank National No.</string>
+    <string name="signature">Signature</string>
+
+    <string name="bank_use">Bank Use Only</string>
+    <string name="cheque_no">رقم الشيك/الحوالة</string>
+    <string name="pay_type">طريقة الدفع</string>
+    <string name="pay_on">القيد على حساب</string>
+    <string name="equality">القيمة المعادلة بعملة الحساب</string>
+    <string name="sale_price_">سعر البيع</string>
+    <string name="comision">العمولة</string>
+    <string name="defferintiation">فرق العملة</string>
+    <string name="inbox">مصاريف البريد</string>
+    <string name="swift_cost">أجور سويفت/تلكس</string>
+    <string name="total_">المجموع</string>
+    <string name="worker">اعداد</string>
+    <string name="check">تدقيق</string>
+    <string name="signature_">توقيع</string>
+    <string name="accept_or_not">الحوالة تتطلب الموافقة من دائرة الإمتثال</string>
+    <string name="recommendation">توصية دائرة الامتثال (في حال كانت الاجابة نعم)</string>
+
+    <string name="drafts">Drafts</string>
+    <string name="dated">Dated</string>
+    <string name="i_received">I have received cheque no.</string>
+    <string name="to_the_order">to the order of</string>
+    <string name="draft_body">and I shall bear any responsibility that may arise from loss and/or theft and/or damage of this cheque or for any other reason whatsover
+        and I undertake to notify you therefore immediately without any responsibility or engagement on your part.
+        In the event that you are notified of any objection to honor the cheque by the beneficiary or the bearer for reason whatsover,
+        you are authorized to accept the objection and to countermand the cheque without any responsibility on your part. Considering the objection of the on
+        bearer or the beneficiary as an objection from me bearing all
+        responsibilities incumbent thereon. In the event that the cheque
+        is dishonored due to the previous reasons, I undertake mot to claim
+        refund unless you ascertain from your correspondents that the cheque
+        Thas not been honored yet and you my take all procedures that you
+        deer necessary in connection therewith.</string>
+    <string name="next">Next</string>
+
+
+    <string name="transfers">Transfers</string>
+    <string name="transfers_body">In the event that our order is related to the transfer, we are personally
+        responsible if you are subjected to any responsibility for any reason
+        whatsoever arising from the issuance off the transfer requested by
+        us, And any accrued interest that might arise im the futures, and any
+        future objection on our pent to stop payment off the transfer after it\'s
+        issuance will be null and void. "\n" "\n" When payment currency differs from the A/C currency, the banks,
+        will revert the dailyexchange rates issued by the bank on that day
+        and charge exchange commissions</string>
+
+
+
+
+    <string name="warranty_request">طلب إصدار سند كفالة(عام)</string>
+    <string name="mr_manager">السيد مدير بنك الأردن ش.م.ع. المحترم,,,</string>
+    <string name="branch_">فرع</string>
+    <string name="please_export">الرجاء أن تصدروا سند كفالة</string>
+    <string name="warranty_type">نوع الكفالة</string>
+    <string name="warranty_no">رقم الكفالة</string>
+    <string name="context_">و ذلك وفق الصيغة التالية:</string>
+    <string name="mr_mrs">السيد/السيادة</string>
+    <string name="regards">تحية و احترام,,</string>
+    <string name="ensures">يكفل بنك الأردن ش.م.ع. فرع</string>
+    <string name="amount">بمبلغ</string>
+    <string name="only_">فقط</string>
+    <string name="period">لمدة</string>
+    <string name="from">من</string>
+    <string name="to">الى</string>
+    <string name="and_this">و ذلك</string>
+    <string name="warranty_body1">و يتعهد بنك الأردن ش.م.ع. بدفع قيمة الكفالة إليكم عند أول مطالبة خطية منكم خلال فترة سريانها رغم أية معارضة من المكفول. "\n"
+    و تصبح الكفالة ملغاة بعد انتهاء مدتها و يجب إعادتها الينا فورا, علما بأن اية مطالبة ترد إلينا بعد ذلك لا ينظر فيها سواء أعيدت إلينا الكفالة او لم تعد. "\n"
+    و إننا نتعهد لكم بتحمل أية مسؤولية تقع من جراء هذه الكفالة و اننا نفوضكم بأن تقيدو على حسابنا لديكم دون الحاجة لمراجعتنا, قيمة التأمين</string>
+    <string name="avg">بمعدل</string>
+    <string name="and_comision">والعمولة بمعدل</string>
+    <string name="perc">%</string>
+    <string name="warranty_body2">و أية رسوم أو مصاريف أخرى قد تضطرون لدفعها من جراء اصدار هذه الكفالة. كما نفوضكم أيضا بدفع قيمة هذه الكفالة عند أول طلب و قيد القيمة على حسابنا لديكم على الرغم من ورود أمر المحكمة بوقف دفع الكفالة, و أننا نجيز لكم ,
+    إن رأيتم ذلك مناسبا و دون أن تكونو ملزمين بذلك, بتمديد هذه الكفالة بنفس الشروط و للمدة التي ترونها مناسبة دون الرجوع إلينا و أخذ موافقتنا مجددا. "\n"
+    ملاحظة: مع مراعاة الشروط الواردة في هذه الكفالة و في هذا الطلب تخضع هذه الكفالة للشروط العامة الموقعة من قبلنا و التي تثبت اتفاقنا معكم بخصوص جميع الكفالات التي نطلبها و توافقون على إصدارها.</string>
+
+    <string name="guarantor_sign">توقيع الكفيل/الكفلاء بالتكافل و التضامن</string>
+    <string name="name">الاسم</string>
+    <string name="address_">العنوان</string>
+    <string name="guarantor_sign2">توقيع طالب إصدار الكفالة</string>
+    <string name="guarantor_sign3">توقيع المكفول</string>
+
+
+
+
+</resources>
